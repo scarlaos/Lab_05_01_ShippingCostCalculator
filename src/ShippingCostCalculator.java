@@ -22,7 +22,7 @@ public class ShippingCostCalculator {
         {
             priceOfShipping = itemPrice * shippingPrice;
             totalShipping = priceOfShipping + itemPrice;
-            System.out.println("Your price with shipping is $" + totalShipping + ".");
+            System.out.println("Shipping is 2% of your price. Your price with shipping is $" + totalShipping + ".");
         }
 
 
